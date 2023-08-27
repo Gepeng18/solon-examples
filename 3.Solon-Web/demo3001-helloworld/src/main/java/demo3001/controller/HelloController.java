@@ -1,6 +1,7 @@
 package demo3001.controller;
 
 import org.noear.solon.annotation.Controller;
+import org.noear.solon.annotation.Inject;
 import org.noear.solon.annotation.Mapping;
 import org.noear.solon.core.handle.ModelAndView;
 
@@ -9,6 +10,12 @@ import java.util.Map;
 
 @Controller
 public class HelloController {
+
+    @Inject
+    private AServiceAAAAAAAA aServiceAAAAAAAA;
+
+    @Inject
+    private HelloService helloService;
     /**
      * 这是直接返回值
      * */
