@@ -18,6 +18,11 @@ public class UserController extends BaseController {
     @Inject
     AppxService appxService;
 
+    @Mapping("/test")
+    public String test() throws Exception {
+        return "test";
+    }
+
     @Mapping("/t")
     public String t() throws Exception {
         Object tmp = appxService.findAppx();

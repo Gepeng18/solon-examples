@@ -28,6 +28,6 @@ public class App {
         });
 
         //加载插件
-        PluginManager.load("add1").start();
+//        PluginManager.load("add1").start();
     }
 }
