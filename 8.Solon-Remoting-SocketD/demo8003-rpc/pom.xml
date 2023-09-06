@@ -30,7 +30,7 @@
         <!-- smartsocket ok -->
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>solon.boot.socketd.smartsocket</artifactId>
+            <artifactId>solon.boot.socketd.netty</artifactId>
         </dependency>
 
         <!-- netty ok -->
